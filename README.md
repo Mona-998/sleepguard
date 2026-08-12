@@ -5,7 +5,7 @@ graduation project to demonstrate production-style patterns: secure
 payments, real authentication, a relational database, and a REST API — not
 just a static frontend.
 
-**Live demo:** _add your Vercel link here_
+**Live demo:** https://sleepguard-delta.vercel.app/
 **Tech stack:** Next.js 14 · TypeScript · Tailwind CSS · PostgreSQL · Prisma · Stripe · NextAuth.js
 
 ---
@@ -117,4 +117,4 @@ intentionally simplified rather than hidden:
 
 ## Author
 
-Built by [Your Name] — [LinkedIn] · [Portfolio]
+Built by Engr. Mona
