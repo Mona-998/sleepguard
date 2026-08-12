@@ -133,7 +133,7 @@ export default function SignupPage() {
   );
 }
 
-export function Field({
+function Field({
   label,
   error,
   children,
