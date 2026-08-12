@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 import Link from "next/link";
 import { signupSchema, type SignupData } from "@/lib/validation";
+import { Field } from "@/components/Field";
 
 export default function SignupPage() {
   const router = useRouter();
@@ -133,20 +134,4 @@ export default function SignupPage() {
   );
 }
 
-function Field({
-  label,
-  error,
-  children,
-}: {
-  label: string;
-  error?: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div>
-      <label className="text-sm text-gray-600 block mb-1">{label}</label>
-      {children}
-      {error && <p className="text-xs text-red-600 mt-1">{error}</p>}
-    </div>
-  );
-}
+
