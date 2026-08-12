@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 import Link from "next/link";
 import { signinSchema, type SigninData } from "@/lib/validation";
-import { Field } from "@/components/Field";
+import { Field } from "@/app/components/Field";
 
 export default function SigninPage() {
   const router = useRouter();
